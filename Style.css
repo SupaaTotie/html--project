@@ -3,11 +3,11 @@ h1
   text-align: center;  
 }
 
-.arapey-regular
+.press-start-2p-regular 
 {
-    font-family: "Arapey", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 div

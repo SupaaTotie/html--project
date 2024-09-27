@@ -1,8 +1,16 @@
-*h1{
+*h1
+{
   text-align: center;  
 }
-.arapey-regular {
+
+.arapey-regular
+{
     font-family: "Arapey", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+div
+{
+ border: 10px;
+}

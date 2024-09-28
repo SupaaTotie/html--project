@@ -20,7 +20,8 @@ h2
 
 h4
 {
- font-size: 25px; 
+ font-size: 25px;
+ color: aqua;
 }
 
 p
@@ -30,6 +31,7 @@ p
  font-optical-sizing: auto;
  font-weight: 300;
  font-style: normal;
+ color: white;
 }
 
 ul
@@ -42,8 +44,8 @@ ul
 
 div
 {
-  border: 10px solid;
-  background-color: grey;
+  border: 10px solid grey;
+  background-color: black;
   padding: 20px;
 }
 

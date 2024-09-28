@@ -52,7 +52,7 @@ div
 .version
 {
   border: 10px solid;
-  background-color: silver;
+  background-color: grey;
   padding: 20px;
 }
 
@@ -73,7 +73,7 @@ div
 
 .BLOXFRUITS
 {
-  margin-left: 450px;
+  width: 150px;
 }
 
 body

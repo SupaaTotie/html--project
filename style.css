@@ -41,6 +41,7 @@ ul
  font-weight: 300;
  font-style: normal;
  color: aqua;
+ font-size: 20px;
 }
 
 div
@@ -67,7 +68,7 @@ img
   margin-left: 240px;
 }
 
-.Rocket
+.IMG
 {
   margin-left: 300px;
 }
@@ -90,6 +91,7 @@ img
 .BLOXFRUITS
 {
   width: 150px;
+  margin-left: 0px;
 }
 
 body

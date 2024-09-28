@@ -1,6 +1,13 @@
 h1
 {
+  font-size: 30px;
   text-align: center;  
+}
+
+h2
+{
+ text-align: center;
+ font-size: 25px;
 }
 
 .press-start-2p-regular 
@@ -8,14 +15,41 @@ h1
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 10px;
 }
 
 .website
 {
- border: 10px;
- margin: 0px;
+ border: 10px solid;
+ background-color: grey;
  padding: 20px;
+}
+
+.background
+{
+ border: 10px solid;
+ background-color: grey;
+ padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BLOXFRUITS
+{
+  margin-left: 260px;
 }
 
 body
@@ -28,12 +62,5 @@ a
  color: red;
 }
 
-img
-{
- margin-left: 240px;
-}
 
-h2
-{
- text-align: center;
-}
+

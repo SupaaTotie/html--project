@@ -1,41 +1,53 @@
 h1
 {
   font-size: 30px;
-  text-align: center;  
+  text-align: center;
+  color: aqua;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal; 
 }
 
 h2
 {
  text-align: center;
  font-size: 25px;
-}
-
-.press-start-2p-regular 
-{
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.website
-{
- border: 10px solid;
- background-color: grey;
- padding: 20px;
-}
-
-.background
-{
- border: 10px solid;
- background-color: grey;
- padding: 20px;
+ color: aqua;
+ font-family: "Press Start 2P", system-ui;
+ font-weight: 400;
+ font-style: normal;
 }
 
 p
 {
  text-align: center;
+ font-family: "Oswald", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 300;
+ font-style: normal;
 }
 
+ul
+{
+ font-family: "Oswald", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 300;
+ font-style: normal;
+}
+
+div
+{
+  border: 10px solid;
+  background-color: grey;
+  padding: 20px;
+}
+
+.version
+{
+  border: 10px solid;
+  background-color: silver;
+  padding: 20px;
+}
 
 
 
@@ -64,7 +76,7 @@ body
 
 a
 {
- color: red;
+ color: aqua;
 }
 
 

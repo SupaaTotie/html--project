@@ -42,7 +42,6 @@ ul
  font-style: normal;
  color: aqua;
  font-size: 20px;
- display: inline-block;
 }
 
 div
@@ -69,6 +68,7 @@ div
 img
 {
   margin-left: 240px;
+  border: solid #03346E;
 }
 
 .IMG
@@ -78,7 +78,7 @@ img
 
 .BLOXFRUITS
 {
-  border: #03346E;
+  border: solid #03346E;
   width: 150px;
   margin-left: 0px;
 }

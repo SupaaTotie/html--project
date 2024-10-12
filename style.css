@@ -49,7 +49,8 @@ div
   border: 10px solid #021526;
   background-color: #03346E;
   padding: 20px;
-  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .version

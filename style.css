@@ -68,7 +68,7 @@ div
 img
 {
   margin-left: 240px;
-  border: solid black;
+  border: solid 10px black;
 }
 
 .IMG
@@ -78,7 +78,6 @@ img
 
 .BLOXFRUITS
 {
-  border: solid #03346E;
   width: 150px;
   margin-left: 0px;
 }
@@ -91,6 +90,16 @@ body
 a
 {
  color: aqua;
+}
+
+a:hover
+{
+  color: white;
+}
+
+.RocketZ:hover
+{
+  content: url(GIF/Rocket_Z.webp);
 }
 
 

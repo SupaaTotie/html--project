@@ -6,6 +6,7 @@ h1
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal; 
+  text-transform: uppercase;
 }
 
 h2
@@ -115,4 +116,12 @@ a:hover
   content: url( GIF/Rocket_X.webp );
 }
 
+.RocketC:hover
+{
+ content: url(GIF/Rocket_C.webp);
+}
 
+.RocketF:hover
+{
+ content: url(GIF/Rocket_F.webp);
+}

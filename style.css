@@ -65,12 +65,6 @@ div
  margin-left: 0px; 
 }
 
-img
-{
-  margin-left: 240px;
-  border: solid 10px black;
-}
-
 .IMG
 {
   margin-left: 300px;
@@ -95,6 +89,20 @@ a
 a:hover
 {
   color: white;
+}
+
+.block
+{
+  width: 100px;
+  height: 100px;
+}
+
+.display
+{
+  border: solid  #697565;
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: 20px;
 }
 
 .RocketZ:hover

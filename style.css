@@ -47,11 +47,10 @@ ul
 
 div
 {
-  border: 10px solid #697565;
   background-color: #3C3D37;
   padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .version
@@ -79,7 +78,52 @@ div
 
 body
 {
- background-color: black ;
+ background-image: url( IMG/bodybackground.webp);
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ min-height: 100px;
+}
+
+.peh
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Center
+{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+}
+
+.sintir
+{
+  padding: 50px;
+  padding-top: 300px;
+
+}
+
+.STICKY
+{
+  background-color: transparent;
+}
+
+button
+{
+    height: 50px;
+    width: 100px;
+    background-color: #181C14;
+    color: white;
+    display: inline-block;
+}
+
+button:hover
+{
+  color: aqua;
 }
 
 a

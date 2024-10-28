@@ -81,8 +81,7 @@ body
  background-image: url( IMG/bodybackground.webp);
  background-size: cover;
  background-position: center;
- height: 100vh;
- min-height: 100px;
+ background-attachment: fixed;
  background-repeat: no-repeat;
 }
 

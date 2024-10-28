@@ -83,6 +83,7 @@ body
  background-position: center;
  height: 100vh;
  min-height: 100px;
+ background-repeat: no-repeat;
 }
 
 .peh

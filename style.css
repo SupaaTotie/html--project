@@ -169,3 +169,94 @@ a:hover
 {
  content: url(GIF/Rocket_F.webp);
 }
+
+.titlebar {
+  width: 100%;
+  height: 100%;
+  background-color: darkslategrey;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-bottom: solid black 3px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  align-items: center;
+  width: 250px;
+  height: 55px;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-button {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: black;
+  border-radius: 0.25rem;
+  border: 0.1rem solid black;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav-button img {
+  width: 20px;
+}
+
+.nav-button span {
+  font-size: 1.1rem;
+}
+
+.nav-button:hover {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: cadetblue;
+  border-radius: 0.25rem;
+  border: 0.1rem solid cadetblue;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
+  min-width: 100%;
+  transition: 0.5s;
+}
+
+.menu a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  background-color: darkgray;
+}
+
+.nav-button:hover .menu {
+  display: block;
+}

@@ -49,8 +49,6 @@ div
 {
   background-color: #3C3D37;
   padding: 20px;
-  margin-left: 75px;
-  margin-right: 75px;
 }
 
 .version
@@ -171,16 +169,11 @@ a:hover
 }
 
 
-
-
-
-
-
 .titlebar {
-  width: 100%;
+  width: 99%;
   height: 100%;
   background-color: darkslategrey;
-  padding: 10px 5%;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

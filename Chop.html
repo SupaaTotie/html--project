@@ -12,10 +12,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+      .bots
+      {
+        text-align: center;
+      }
+
+      .CHOPZ:hover
+      {
+        content: url( GIF/Chop_Z.webp );
+      }
+
+      .CHOPX:hover
+      {
+        content: url( GIF/Chop_X.webp );
+      }
+
+      .CHOPC:hover
+      {
+        content: url( GIF/Chop_C.webp );
+      }
+
+      .CHOPF:hover
+      {
+        content: url( GIF/Chop_f.webp );
+      }
+
+
+    </style>
     </head>
   <body>
-        <img class="HOME" src="IMG/HomeButton.png" alt="Home Icon" /><a href="index.html">HOME</a>
-        <hr>
+    <div class="titlebar">
+      <img class="BLOXFRUITS"src="IMG/bloxfruit.webp" alt="bloxfruit logo" class="logo" draggable="false">
+          
+
+      <div class="nav-button">
+        <img src="IMG/Menu.png" alt="Menu-icon">
+        <span>Menu</span>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="Aboutus.html">About</a>
+          <a href="info.html">Info</a>
+          <a href="contact.html">Contacts</a>
+        </div>
+      </div>
+    </div>
         <div>
             <h1>Chop</h1>
         <hr>    
@@ -43,7 +85,7 @@
                   The player separates their upper torso and launches it forward, dealing<br>
                   damage to enemies it hits.
                 </p>
-        <img src="GIF/Chop_Z.webp" alt="Z move of Chop fruit">
+        <img class="CHOPZ" src="IMG/Z-Key.webp" alt="Z move of Chop fruit">
                     <li>X - Dance</li>
                 <p>
                   Separates the user's entire body except their torso and their head for
@@ -51,14 +93,14 @@
                   attack that deals chip damage and stuns all enemies in a circular radius
                   around the user.
                 </p>
-        <img src="GIF/Chop_X.webp" alt="X move of Chop fruit">
+        <img class="CHOPX" src="IMG/X-Key.webp" alt="X move of Chop fruit">
                     <li>C - Party</li>
                 <p>
                   The user attacks their opponent with a barrage of floating fists. This
                   move <br />
                   lasts longer if held. This move is similar to Rubber C move.
                 </p>
-        <img src="GIF/Chop_C.webp" alt="C move of Chop fruit">
+        <img class="CHOPC" src="IMG/C-Key.webp" alt="C move of Chop fruit">
                     <li>F - Helicopter</li>
                 <p>
                   The user separates their arms and legs and starts spinning them to
@@ -66,7 +108,7 @@
                   flight, similar to Spin flight. Note that it does not constantly
                   decrease Energy.
                 </p>
-        <img src="GIF/Chop_f.webp" alt="F move of Chop fruit">
+        <img class="CHOPF" src="IMG/F-Key.webp" alt="F move of Chop fruit">
                 </ul>
             <h3>PASSIVE</h3>
             <h3>Name - Body Separation</h3>
@@ -89,6 +131,6 @@
         <img src="GIF/ChopFruitGIF.webp" alt="Chop frit in game">
         </div>    
     <hr>
-            <h3><a href="#">TOP BUTTON</a></h3>
+            <h3 class="bots"><a href="#">TOP BUTTON</a></h3>
   </body>
 </html>

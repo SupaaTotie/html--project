@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">    
+<link rel="stylesheet" href="contact.css">    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url( IMG/bodybackground.webp);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+        }
+
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.logo:hover{
+    color: rgb(255, 38, 0);
+    text-shadow: 0 0 25px rgb(255, 38, 0),
+                 0 0 50px  rgb(255, 38, 0);
+    transform: scale(1.1);
+
+}
+span{
+    color: rgb(255, 38, 0);
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(241, 241, 241,);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home1{
+    max-width: 800px;
+}
+.home1 h3{
+    font-size: 42px;
+    color: white;
+}
+.home1 h1{
+    font-size: 62px;
+    line-height: 1.2;
+    color: white;
+}
+.home1 p{
+    font-size: 18px;
+    margin: 25px 0 35px;
+    color: white;
+}
+.box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn1{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.img1 img{
+    border-radius: 50%;
+    width: 550px;
+    height: 400px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(255, 38, 0);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display:inline-block ;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px rgb(255, 38, 0), 0 0 10px rgb(255, 38, 0);
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: rgb(255, 38, 0);
+    border: 2px solid rgb(255, 38, 0);
+
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid rgb(255, 38, 0);
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(img1/back.webp);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-attachment:fixed ;
+    background-repeat:no-repeat ;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="background">
+        <header class="header">
+            <a href="#" class="logo"><span>BLX</span>FRUIT</a>
+        </header>
+        <section class="home">
+            <div class="home1">
+                    <h3>Hi</h3>
+    
+                    <h1>I am <span>Roel Jr C Hugo<br></span> a Developer</h1>
+    
+                    <p> I'm the developer on this project and I'm just coding for fun.</p>
+    
+                        <div class="box">
+                            <button onclick="document.location='index.html'" class="btn1">Go to my Website</button>
+                    </div>
+            </div>
+            <din class="img1">
+                <img src="IMG/propayl.jpg" alt="ako">
+            </din>
+        </section>
+    </div>
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/totiechugo"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.facebook.com/totiechugo"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.facebook.com/totiechugo"><i class='bx bxl-tiktok' ></i></a>
+                <a href="#"><i class='bx bx-link' ></i></a>
+        </footer>
+
+
+
+
+
+
+    <div class="footer">
+        <footer id="contacts">
+          <div class="container">
+            <div class="profile">
+              <h2>Roel Jr. C. Hugo</h2>
+                <p>
+                    I'm ROEL JR C HUGO, a BSIT student with a strong passion for growth in the tech field. Outside of academics, I enjoy reading, singing, and modeling as ways to express my creativity. My primary interest lies in web design, and I'm constantly honing my skills to craft impactful and user-friendly digital experiences.
+                  <ul class="sci">
+                    <li><a href="contact.html"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="https://www.facebook.com/theycallme.fj"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://x.com/theycallme_fj"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/theycallme_fj/"><i class="fab fa-instagram"></i></a></li>
+                    <!-- <li><a href="https://www.tiktok.com/@hectic_lang?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a></li> -->
+                  </ul>
+            </div>
+            <div class="links">
+              <h2>Website</h2>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Aboutus.html">About</a></li>
+                  <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="contacts">
+              <h2>Contacts</h2>
+              <ul class="number">
+                <li>
+                  <span><i class="fa-solid fa-phone"></i></span><p>+63 912 460 8004</p>
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-envelope"></i></span><p>totiechugo@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <div class="notice">
+                <p>
+                  Note: This website is created for educational purposes and aims to offer information, resources, and activities that support learning and personal development. All content is designed to foster knowledge and skill growth in a safe and respectful environment.
+                </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="copyright">
+        <p>
+            &copy; 2024 <a href="index.html" class="link">BLOXFRUIT.</a> All rights reserved. 
+            <a href="propayl.html"class="link">Contact us</a>
+        </p>
+      </div>
+</body>
+</html>
